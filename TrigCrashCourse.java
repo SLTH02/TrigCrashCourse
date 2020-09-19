@@ -513,7 +513,7 @@ class OverallPanel extends JPanel
 						mainPageButton = new JButton("Main Page");
 						startGameButton = new JButton("START game");
 						
-						startGameButton.setBackground(Color.GREEN);
+						startGameButton.setForeground(Color.GREEN);
 						startGameButton.setOpaque(true);
 		
 						add(mainPageButton);
@@ -632,8 +632,9 @@ class OverallPanel extends JPanel
 					setBackground(Color.WHITE);
 					
 					restart = new JButton("Restart");
-					restart.setBackground(Color.RED);
 					restart.setOpaque(true);
+					restart.setForeground(Color.RED);
+					restart.setBackground(Color.WHITE);
 					
 					main = new JButton("Main Page");
 					instruction = new JButton("Instruction Page");
@@ -1772,7 +1773,8 @@ class OverallPanel extends JPanel
 						add(mainPageButton);
 						add(startGameButton);
 						
-						startGameButton.setBackground(Color.GREEN);
+						startGameButton.setForeground(Color.GREEN);
+						startGameButton.setBackground(Color.WHITE);
 						startGameButton.setOpaque(true);
 			
 						mainPageButton.addActionListener(this);
